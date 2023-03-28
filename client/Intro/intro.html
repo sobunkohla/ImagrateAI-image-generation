@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stratak</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="row">
+        <div class="nav">
+          <div class="logo nav__logo">
+            <figure class="nav__img--wrapper logo--wrapper">
+              <img
+                src="../src/assets/logo.svg"
+                alt=""
+                class="nav__img"
+              />
+            </figure>
+        
+          </div>
+          
+          <button class="backdrop__button backdrop__button--open" onclick="openMenu()">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="nav__backdrop">
+            <div class="backdrop__top">
+              <button class="backdrop__button backdrop__button--close" onclick="CloseMenu()">
+                <i class="fas fa-times"></i>
+              </button>
+              <div class=" backdrop__logo">
+                <figure class="backdrop__logo--wrapper logo--wrapper">
+                  <img
+                    src="../src/assets/logo.svg"
+                    alt=""
+                    class="nav__img"
+                  />
+                </figure>
+                <h1 class="logo--text">Stratak</h1>
+              </div>
+            </div>
+            <div class="backdrop__header">
+              <ul class="backdrop__content">
+                <li class="backdrop__links--container"><div class="backdrop__title--container">
+                  <a  class="backdrop__section--title"> <i class="fas fa-books"></i> <span> Docs</span> </a>
+                  </div>
+                  <ul class="backdrop__links">
+                    <li class="backdrop__link--container"> 
+                      <a href="#" class="backdrop__link no--cursor" onclick="CloseMenu()">About</a>
+                    </li>
+                    <li class="backdrop__link--container"> 
+                      <a href="#Testimonials" class="backdrop__link no--cursor" onclick="CloseMenu()">Testimonials</a>
+                    </li>
+                    <li class="backdrop__link--container"> 
+                      <a href="#features" class="backdrop__link no--cursor" onclick="CloseMenu()">Features</a>
+                    </li>
+                    <li class="backdrop__link--container"> 
+                      <a href="#Steps" class="backdrop__link no--cursor" onclick="CloseMenu()">Steps</a>
+                    </li>
+                  </ul>
+                </li>
+                
+                <li class="backdrop__links--container">
+                  <div class="backdrop__title--container">
+                  <a href="" class="backdrop__section--title">  <span > Support</span> </a>
+                </div>
+                  <ul class="backdrop__links">
+                    <li class="backdrop__link--container"> 
+                      <a href="#clients" class="backdrop__link no--cursor">Users</a>
+                    </li>
+                    <li class="backdrop__link--container"> 
+                      <a href="#values" class="backdrop__link no--cursor">Values</a>
+                    </li>
+                    <li class="backdrop__link--container"> 
+                      <a href="../index.html" class="backdrop__link no--cursor">Get Started</a>
+                    </li>
+                  </ul>
+                </li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section id="header">
+        <div class="container header__container">
+          <div class="row">
+            <div class="section--content">
+              <div class="header__description">
+                <h1 class="header--title">
+                  Your Visions brought to 
+                  <span class="text--gradient"> Reality</span>
+                </h1>
+                <p class="header--subtitle">
+                  Bring your ideas to life with imagrate AI, your very own AI image generation Tool
+                </p>
+                <div class="header__form">
+                  <input
+                    type="email"
+                    class="header__form--email"
+                    placeholder="Your E-mail Address"
+                  />
+                  <a href=""></a>
+                  <button class="header__form--button no--cursor">
+                    Get Started
+                  </button>
+                </div>
+                <div class="header__social">
+                  <a href="#clients" class="animated__button">
+                    <span class="animated__button--text no--cursor">
+                      Get started</span
+                    >
+                  </a>
+                  <a
+                    href="#Testimonials"
+                    class="header__social--link text__underline text__underline--white"
+                  >
+                    See Our Users &nbsp; <i class="fas fa-arrow-right"></i>
+                  </a>
+
+                </div>
+              </div>
+              <figure class="header__img--wrapper">
+                <img
+                  src="./assets1/undraw_maker_launch_re_rq81 (1).svg"
+                  alt=""
+                  class="header__img"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="features">
+        <div class="container">
+          <div class="row">
+            <h5 class="section--minititle">FEATURES</h5>
+            <h1 class="section--title">
+              Services in the <span class="text--gradient">on-demand</span>
+            </h1>
+            <p class="section--para">
+              Generate High Quality Images With a single prompt, Limited only by your imagination
+            </p>
+            <div class="features">
+              <div class="feature">
+                <div class="feature__container">
+                  <div class="feature__content">
+                    <div class="feature__description">
+                      <span class="feature--title">Secure</span>
+                      <p class="feature--para">
+                        Safe and secure internet connection with high page speed
+                      </p>
+                    </div>
+                    <div class="feature__icon--wrapper">
+                      <img
+                        src="./final project assets/Free Modern React Templates & Components for building landing pages and UIs - Treact_files/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg"
+                        alt=""
+                        class="feature__icon--img"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature__container">
+                  <div class="feature__content">
+                    <div class="feature__description">
+                      <span class="feature--title"> 24/7 service</span>
+                      <p class="feature--para">
+                        Contact us at anytime on the problems you may encounter
+                      </p>
+                    </div>
+                    <div class="feature__icon--wrapper">
+                      <img
+                        src="./final project assets/Free Modern React Templates & Components for building landing pages and UIs - Treact_files/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg"
+                        alt=""
+                        class="feature__icon--img"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature__container">
+                  <div class="feature__content">
+                    <div class="feature__description">
+                      <span class="feature--title">Customizable</span>
+                      <p class="feature--para">
+                        Customize an image by adding more parameters to your prompt 
+                      </p>
+                    </div>
+                    <div class="feature__icon--wrapper">
+                      <img
+                        src="./final project assets/Free Modern React Templates & Components for building landing pages and UIs - Treact_files/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg"
+                        alt=""
+                        class="feature__icon--img"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature__container">
+                  <div class="feature__content">
+                    <div class="feature__description">
+                      <span class="feature--title">Reliable</span>
+                      <p class="feature--para">
+                        Reliable download quality along with low barriers of entry to using the app
+                      </p>
+                    </div>
+                    <div class="feature__icon--wrapper">
+                      <img
+                        src="./final project assets/Free Modern React Templates & Components for building landing pages and UIs - Treact_files/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg"
+                        alt=""
+                        class="feature__icon--img"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature__container">
+                  <div class="feature__content">
+                    <div class="feature__description">
+                      <span class="feature--title">Fast</span>
+                      <p class="feature--para">
+                        Fast image generation and image download speeds
+                      </p>
+                    </div>
+                    <div class="feature__icon--wrapper">
+                      <img
+                        src="./final project assets/Free Modern React Templates & Components for building landing pages and UIs - Treact_files/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg"
+                        alt=""
+                        class="feature__icon--img"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature__container">
+                  <div class="feature__content">
+                    <div class="feature__description">
+                      <span class="feature--title">Customer care</span>
+                      <p class="feature--para">
+                        Providing you with a user-friendly interface with easy to understand functionality                     </p>
+                    </div>
+                    <div class="feature__icon--wrapper">
+                      <img
+                        src="./final project assets/Free Modern React Templates & Components for building landing pages and UIs - Treact_files/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg"
+                        alt=""
+                        class="feature__icon--img"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="Steps">
+        <div class="container">
+          <div class="row steps__container">
+            <div class="section__description steps__description">
+              <span class="section--minititle">STEPS</span>
+              <h1 class="section--title">
+                Initialize with 
+                <span class="text--gradient">Speed & Efficiancy</span>
+              </h1>
+              <ul class="steps">
+                <li class="step">
+                  <div class="step__no">01</div>
+                  <div class="step__description">
+                    <h6 class="step__description--title">Create</h6>
+                    <p class="step__description--par">
+                      Create a post and type out the image you want 
+                    </p>
+                  </div>
+                </li>
+                <li class="step">
+                  <div class="step__no">02</div>
+                  <div class="step__description">
+                    <h6 class="step__description--title">Showcase</h6>
+                    <p class="step__description--par">
+                      Post your image and add it to the community images
+                    </p>
+                  </div>
+                </li>
+                <li class="step">
+                  <div class="step__no">03</div>
+                  <div class="step__description">
+                    <h6 class="step__description--title">Download</h6>
+                    <p class="step__description--par">
+                     download the image and many other images from within the community
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <section id="Values">
+        <div class="container">
+          <div class="row Value__container">
+            <div class="section__description value__description">
+              <span class="section--minititle">Values</span>
+              <h1 class="section--title">
+                Our values our 
+                <span class="text--gradient">Virtue</span>
+              </h1>
+              <p class="section--para">
+                We value our users and look to provide the best user experience to them 
+              </p>
+              <div class="values">
+                <div class="value">
+                  <div class="value__heading">
+                    <div class="value__icon--wrapper value__wrapper--first">
+                      <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <div class="value--title">Affordable</div>
+                  </div>
+                  <p class="value-para">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Inventore, nostrum?
+                  </p>
+                </div>
+                <div class="value">
+                  <div class="value__heading">
+                    <div class="value__icon--wrapper value__wrapper--second">
+                      <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="value--title">Professionalism</div>
+                  </div>
+                  <p class="value-para">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Inventore, nostrum?
+                  </p>
+                </div>
+              </div>
+              <button class="animated__button section--button no--cursor">
+                Learn more
+              </button>
+            </div>
+            <figure class="section__img--wrapper value__img-wrapper">
+              <img
+                src="./final project assets/Free Modern React Templates & Components for building landing pages and UIs - Treact_files/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg"
+                alt=""
+                class="section__img value__img"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+      
+      <section id="Testimonials">
+        <div class="container">
+          <div class="row testimonial__container">
+            <div class="section__description testimonial__description">
+              <span class="section--minititle">Testimonials</span>
+              <h1 class="section--title">
+                 love is what we
+                <span class="text--gradient">Recieve</span>
+              </h1>
+              <p class="section--para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed id
+                repudiandae distinctio corrupti nostrum quod blanditiis,
+                quibusdam temporibus, dolores natus iste asperiores explicabo
+                adipisci aspernatur impedit expedita, consequuntur dolorem!
+                Repellat animi placeat atque dolorum optio, nemo eum soluta
+                culpa incidunt?
+              </p>
+              <div class="testimonials">
+                <div class="testimonial">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h6 class="testimonial--title">Amazing user experience</h6>
+                  <p class="testimonial--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequuntur cumque, nihil aliquid molestias debitis vitae
+                    distinctio impedit iusto dolore deleniti aspernatur aperiam
+                    in laboriosam animi laborum unde veritatis molestiae dolorum
+                    dignissimos. Dicta aperiam dolore dolores cum fugiat
+                    doloremque consequuntur ducimus.
+                  </p>
+                  <div class="client__details">
+                    <div class="client__info">
+                      <figure class="client__img--wrapper">
+                        <img
+                          src="https://thispersondoesnotexist.com/image"
+                          alt=""
+                          class="client__img"
+                        />
+                      </figure>
+                      <div class="about__client">
+                        <span class="client--name">Charlie Heath</span>
+                        <span class="client--occupation"
+                          >Director, Deios inc.</span
+                        >
+                      </div>
+                    </div>
+                    <div class="testimonial__next-button__container">
+                      <button
+                        class="testimonial__changing--button previous--testimonial"
+                        onclick="showPreviousTestimonial()"
+                      >
+                        <i class="fas fa-arrow-left"></i>
+                      </button>
+                      <div class="divider"></div>
+                      <button
+                        class="testimonial__changing--button next--testimonial"
+                        onclick="showNextTestimonial()"
+                      >
+                        <i class="fas fa-arrow-right"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h6 class="testimonial--title">Outstanding staff</h6>
+                  <p class="testimonial--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequuntur cumque, nihil aliquid molestias debitis vitae
+                    distinctio impedit iusto dolore deleniti aspernatur aperiam
+                    in laboriosam animi laborum unde veritatis molestiae dolorum
+                    dignissimos. Dicta aperiam dolore dolores cum fugiat
+                    doloremque consequuntur ducimus.
+                  </p>
+                  <div class="client__details">
+                    <div class="client__info">
+                      <figure class="client__img--wrapper">
+                        <img
+                          src="./assets1/Sobu.jpg"
+                          alt=""
+                          class="client__img"
+                        />
+                      </figure>
+                      <div class="about__client">
+                        <span class="client--name">Peterson Dane</span>
+                        <span class="client--occupation"
+                          >Director, Person inc.</span
+                        >
+                      </div>
+                    </div>
+                    <div class="testimonial__next-button__container">
+                      <button
+                        class="testimonial__changing--button previous--testimonial"
+                        onclick="showPreviousTestimonial()"
+                      >
+                        <i class="fas fa-arrow-left"></i>
+                      </button>
+                      <div class="divider"></div>
+                      <button
+                        class="testimonial__changing--button next--testimonial"
+                        onclick="showNextTestimonial()"
+                      >
+                        <i class="fas fa-arrow-right"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h6 class="testimonial--title">Great Results</h6>
+                  <p class="testimonial--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequuntur cumque, nihil aliquid molestias debitis vitae
+                    distinctio impedit iusto dolore deleniti aspernatur aperiam
+                    in laboriosam animi laborum unde veritatis molestiae dolorum
+                    dignissimos. Dicta aperiam dolore dolores cum fugiat
+                    doloremque consequuntur ducimus.
+                  </p>
+                  <div class="client__details">
+                    <div class="client__info">
+                      <figure class="client__img--wrapper">
+                        <img
+                          src="./assets1/me.jpeg"
+                          alt=""
+                          class="client__img"
+                        />
+                      </figure>
+                      <div class="about__client">
+                        <span class="client--name">Cath Davis</span>
+                        <span class="client--occupation"
+                          >founder, Carlos inc.</span
+                        >
+                      </div>
+                    </div>
+                    <div class="testimonial__next-button__container">
+                      <button
+                        class="testimonial__changing--button previous--testimonial"
+                        onclick="showPreviousTestimonial()"
+                      >
+                        <i class="fas fa-arrow-left"></i>
+                      </button>
+                      <div class="divider"></div>
+                      <button
+                        class="testimonial__changing--button next--testimonial"
+                        onclick="showNextTestimonial()"
+                      >
+                        <i class="fas fa-arrow-right"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <figure class="section__img--wrapper client__love--wrapper">
+              <img
+                src="./final project assets/Free Modern React Templates & Components for building landing pages and UIs - Treact_files/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg"
+                alt=""
+                class="section__img"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+      
+      <section id="clients">
+        <div class="container">
+          <div class="row clients__row">
+            <h5 class="section--minititle">Users</h5>
+            <h1 class="section--title">
+              Trusted by
+              <span class="text--gradient">world-class </span> companies
+            </h1>
+            <p class="section--para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis suscipit expedita, explicabo consectetur voluptates
+              saepe nulla assumenda nesciunt praesentium? Repellendus.
+            </p>
+            <a
+              href="#customers"
+              class="text__underline text__underline--white clients__link no--cursor"
+            >
+              Discover our showcase &nbsp; <i class="fas fa-arrow-right"></i>
+            </a>
+            <figure class="clients__img--wrapper">
+              <img
+                src="./final project assets/Free Modern React Templates & Components for building landing pages and UIs - Treact_files/customers-logo-strip.680ac7c2e8ae28161d2c.png"
+                class="clients__img"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="footer__social">
+            <div class="footer__social--list">
+              <div class="footer__social--link-header">MAIN</div>
+              <ul class="footer__social--links">
+                <li class="footer__social--link-container">
+                  <a class="footer__social--link no--cursor">Blog</a>
+                </li>
+                <li class="footer__social--link-container">
+                  <a href="#faq" class="footer__social--link">FAQs</a>
+                </li>
+                <li class="footer__social--link-container">
+                  <a href="" class="footer__social--link no--cursor"
+                    >Supports</a
+                  >
+                </li>
+                <li class="footer__social--link-container">
+                  <a href="#" class="footer__social--link">About us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__social--list">
+              <div class="footer__social--link-header">PRODUCT</div>
+              <ul class="footer__social--links">
+                <li class="footer__social--link-container">
+                  <a class="footer__social--link no--cursor">Log in</a>
+                </li>
+                <li class="footer__social--link-container">
+                  <a href="#Pricing " class="footer__social--link">personal</a>
+                </li>
+                <li class="footer__social--link-container">
+                  <a href="#Pricing " class="footer__social--link">Business</a>
+                </li>
+                <li class="footer__social--link-container">
+                  <a href="#Pricing " class="footer__social--link">Team</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__social--list">
+              <div class="footer__social--link-header">PRESS</div>
+              <ul class="footer__social--links">
+                <li class="footer__social--link-container">
+                  <a class="footer__social--link no--cursor">Logos</a>
+                </li>
+                <li class="footer__social--link-container">
+                  <a class="footer__social--link no--cursor">Events</a>
+                </li>
+                <li class="footer__social--link-container">
+                  <a class="footer__social--link no--cursor">Stories</a>
+                </li>
+                <li class="footer__social--link-container">
+                  <a class="footer__social--link no--cursor">Office</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__social--list">
+              <div class="footer__social--link-header">TEAM</div>
+              <ul class="footer__social--links">
+                <li class="footer__social--link-container">
+                  <a class="footer__social--link no--cursor">Career</a>
+                </li>
+                <li class="footer__social--link-container">
+                  <a class="footer__social--link no--cursor">Founders</a>
+                </li>
+                <li class="footer__social--link-container">
+                  <a class="footer__social--link no--cursor">Culture</a>
+                </li>
+                <li class="footer__social--link-container">
+                  <a class="footer__social--link no--cursor">Onboarding</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__social--list">
+              <div class="footer__social--link-header">LEGAL</div>
+              <ul class="footer__social--links">
+                <li class="footer__social--link-container">
+                  <a class="footer__social--link no--cursor">GDPR</a>
+                </li>
+                <li class="footer__social--link-container">
+                  <a class="footer__social--link no--cursor">Privacy Policy</a>
+                </li>
+                <li class="footer__social--link-container">
+                  <a class="footer__social--link no--cursor"
+                    >Terms of services</a
+                  >
+                </li>
+                <li class="footer__social--link-container">
+                  <a class="footer__social--link no--cursor">Disclamier</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__divider"></div>
+          <div class="footer__content">
+            <div class="footer__logo--content logo">
+              <figure class="footer__logo--wrapper">
+                <img
+                  src="./assets1/removal.ai__tmp-63bfd1e1b6715.ico"
+                  alt=""
+                  class="footer__logo"
+                />
+              </figure>
+              <h1 class="logo--text">Stratak</h1>
+            </div>
+            <div class="footer__copyright">
+              &copy; 2023 Stratak Inc. All Rights Reserved
+            </div>
+            <div class="footer__socials">
+              <a
+                class="footer__icon--wrapper"
+                href="https://twitter.com"
+                target="_blank"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a
+                class="footer__icon--wrapper"
+                href="https://facebook.com"
+                target="_blank"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a
+                class="footer__icon--wrapper"
+                href="https://youtube.com"
+                target="_blank"
+              >
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
