@@ -398,7 +398,9 @@ HEADER
     margin-left: 32px;
     color: white;
 }
-
+.footer--logo {
+    filter: grayscale()invert(1);
+}
 /* 
 FEATURES
 */
