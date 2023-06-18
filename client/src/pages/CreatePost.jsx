@@ -25,6 +25,7 @@ const CreatePost = () => {
   };
 
   const generateImage = async () => {
+    console.log(form.prompt)
     if (form.prompt) {
       try {
         setGeneratingImg(true);

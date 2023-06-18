@@ -21,7 +21,7 @@ const App = () => {
           <button className=" text-blue-700 text-4xl absolute right-4 top-3" onClick={menuClose}><i className="fas fa-times"></i></button>
             <ul className=" gap-10 flex flex-col text-center">
           <li>
-           
+            
           <a
           onClick={menuClose}
           href="../Intro/intro.html"
